@@ -1,8 +1,8 @@
-let express = require('express')
-let router = express.Router();
-let CarrinhoController = require('../controllers/_completar_')
-
-router.get('/_completar_',_completar_)
-
-
-module.exports = CarrinhoController
+let CarrinhoController = {
+    removeItem: function(){},
+    getItem: function(){},
+    addItem: function(req, res){ res.send("Item Adicionado")},
+      
+ };
+ module.exports = CarrinhoController
+ 
